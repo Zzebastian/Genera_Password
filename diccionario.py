@@ -7,14 +7,18 @@ textos['Esp'] = {'elegir': '\033[0mElija el idioma de operación, solo se admite
                  'cantidad caracteres': '\033[0mIngrese la cantidad de caracteres que desea tener por contraseña, 8 por defecto',
                  }
 
-textos['Eng'] = {"elegir": "\033[0mSelect the operating language, only Spanish (Esp) and English (Eng) are supported.\033[0m",
-                 "error eleccion": "\033[0mOnly Esp or Eng can be selected.\033[0m",
-                 
-}
+textos['Eng'] = {"elegir": "Choose the operating language, only Spanish (\033[32m1\033[0m) and English (\033[32m2\033[0m) are supported.",
+                 "error eleccion": "Only \033[32m1\033[0m or \033[32m2\033[0m can be chosen.",
+                 "agregar valor": "If you want to add an element that modifies the password, do it now, otherwise press Enter",
+                 "cantidad caracteres": "Enter the number of characters you want to have per password, 8 by default",
+                 }
+
+
 idiomaElegido = {'1': 'Esp', '2': 'Eng'}
 
 
 opcionesValidas = {'Esp': {}, 'Eng': {}, 'elegir':['1', '2'], }
+
 
 opcionesValidas['error'] = ''
 for key in textos:
