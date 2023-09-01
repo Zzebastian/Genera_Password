@@ -42,8 +42,7 @@ def crearPW(extension):
       j += 1
       if j >= extension:
         break
-      
-  print("Final = ", generadorCaracteres, " · ", character)
+
   print("Contraseña = ", password)
   
 
